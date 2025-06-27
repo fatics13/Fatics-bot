@@ -1,9 +1,8 @@
 import logging
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
-
-TOKEN = "7940375943:AAEzNdhDYrHejyNN-mviRO0xw3koIsk_jnI"
-
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 # Links y datos
 GRUPO_EROTICO = "https://t.me/+jXXhemKMzyo3NWQ5"
 GRUPO_EXPLICITO = "https://t.me/+qyZP3sQ6iY04Mzdh"
