@@ -116,7 +116,17 @@ Solicítame los datos por privado: @Cuevas0202""",
         )
 
 if __name__ == "__main__":
-    application = Application.builder().token(TOKEN).build()
-    application.add_handler(CommandHandler("start", start))
-    application.add_handler(CallbackQueryHandler(button))
-    application.run_polling()
+    import asyncio
+
+    async def main():
+        application = Application.builder().token(TOKEN).build()
+
+        application.add_handler(CommandHandler("start", start))
+        application.add_handler(CallbackQueryHandler(button))
+
+        await application.initialize()
+        await application.start()
+        await application.updater.start_polling()
+        await application.updater.idle()
+
+    asyncio.run(main())
