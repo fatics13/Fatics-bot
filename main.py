@@ -39,10 +39,10 @@ Contenido erótico, picante y excitante.
 
     elif query.data == "explicito":
         await query.edit_message_text(
-            text="🍑 *Grupo Explícito*
+            text="🍑 *Grupo Explícito*"
 Todos mis videos íntimos, sin censura y contenido futuro 🔥
 
-Métodos de pago:",
+"Métodos de pago:"
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("PayPal", url="https://paypal.me/fati0202")],
                 [InlineKeyboardButton("Ko-fi", url="https://ko-fi.com/fatics")],
@@ -59,7 +59,7 @@ Métodos de pago:",
             text="💬 *Acceso a mi WhatsApp privado*
 Precio: $70 (pago único)
 
-Elige cómo deseas pagar:",
+"Elige cómo deseas pagar:"
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("PayPal", url="https://paypal.me/fati0202")],
                 [InlineKeyboardButton("Ko-fi", url="https://ko-fi.com/fatics")],
@@ -84,13 +84,13 @@ Elige cómo deseas pagar:",
 
     elif query.data == "venezolano":
         await query.edit_message_text(
-            text="🇻🇪 *Pago Móvil Venezuela*
+            text="🇻🇪 *Pago Móvil Venezuela*"
 
 Banco: BNC
 Teléfono: 04125294977
 Cédula: 31075801
 
-Después de pagar, envía el comprobante a @Cuevas0202 para validar.",
+"Después de pagar, envía el comprobante a @Cuevas0202 para validar.",
             parse_mode="Markdown"
         )
 
@@ -101,7 +101,7 @@ Después de pagar, envía el comprobante a @Cuevas0202 para validar.",
 USDT (TRC20): `TLZaPT4b6Cm8mT2agNbS6MehE56dm5CpxZ`
 BTC: `1CxhH7mJhUbyMY53pEwSgiymMEuEmPDXJE`
 
-Envíame el comprobante por Telegram a @Cuevas0202",
+"Envíame el comprobante por Telegram a @Cuevas0202"
             parse_mode="Markdown"
         )
 
