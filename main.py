@@ -54,10 +54,10 @@ text="🔥 Todos mis videos íntimos, sin censura y contenido futuro secreto �
 
     elif query.data == "whatsapp":
         await query.edit_message_text(
-            text="💬 *Acceso a mi WhatsApp privado*
+            text="""💬 *Acceso a mi WhatsApp privado*
 Precio: $70 (pago único)
 
-"Elige cómo deseas pagar:"
+Elige cómo deseas pagar:"""
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("PayPal", url="https://paypal.me/fati0202")],
                 [InlineKeyboardButton("Ko-fi", url="https://ko-fi.com/fatics")],
