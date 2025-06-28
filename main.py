@@ -40,9 +40,7 @@ Contenido erótico, picante y excitante.
     elif query.data == "explicito":
         await query.edit_message_text(
             text="🍑 *Grupo Explícito*"
-Todos mis videos íntimos, sin censura y contenido futuro 🔥
-
-"Métodos de pago:"
+text="🔥 Todos mis videos íntimos, sin censura y contenido futuro secreto 🔥\n\nElige un método de pago:"
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("PayPal", url="https://paypal.me/fati0202")],
                 [InlineKeyboardButton("Ko-fi", url="https://ko-fi.com/fatics")],
