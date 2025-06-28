@@ -22,7 +22,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if query.data == "erotico":
         await query.edit_message_text(
-            text="👀 *Grupo Erótico*
+            text="👀 *Grupo Erótico*"
 Contenido erótico, picante y excitante.
 
 Elige un método de pago:",
