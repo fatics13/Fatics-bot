@@ -1,8 +1,11 @@
 import logging
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
-import os
-TOKEN = os.getenv("BOT_TOKEN")
+logging.basicConfig(level=logging.INFO)
+
+import telebot
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+
+BOT_TOKEN = "7940375943:AAEzNdhDYrHejyNN-mviRO0xw3koIsk_jnI"
+bot = telebot.TeleBot(BOT_TOKEN)
 # Links y datos
 GRUPO_EROTICO = "https://t.me/+jXXhemKMzyo3NWQ5"
 GRUPO_EXPLICITO = "https://t.me/+qyZP3sQ6iY04Mzdh"
@@ -20,14 +23,6 @@ PAGOS = {
     "USDT (TRC20)": "TLZaPT4b6Cm8mT2agNbS6MehE56dm5CpxZ",
     "Bitcoin": "1CxhH7mJhUbyMY53pEwSgiymMEuEmPDXJE"
 }
-
-# Logging básico
-logging.basicConfig(level=logging.INFO)
-import telebot
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-
-BOT_TOKEN = "7940375943:AAEzNdhDYrHejyNN-mviRO0xw3koIsk_jnI"
-bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(message):
