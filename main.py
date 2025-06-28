@@ -114,7 +114,6 @@ Envíame el comprobante por Telegram a @Cuevas0202""",
 Solicítame los datos por privado: @Cuevas0202""",
             parse_mode="Markdown"
         )
-
 if __name__ == "__main__":
     import asyncio
 
