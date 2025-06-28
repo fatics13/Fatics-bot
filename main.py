@@ -25,7 +25,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             text="👀 *Grupo Erótico*"
 Contenido erótico, picante y excitante.
 
-Elige un método de pago:",
+"Elige un método de pago:"
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("PayPal", url="https://paypal.me/fati0202")],
                 [InlineKeyboardButton("Ko-fi", url="https://ko-fi.com/fatics")],
